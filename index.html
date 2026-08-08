@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TechHub — Your Guide to Better Technology</title>
+<meta name="description" content="TechHub helps you find PC builds, gaming gear, technology news, tutorials and reviews.">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#07111d;color:#eef7ff}
+nav{height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 7%;border-bottom:1px solid #173149;background:#081522}
+.logo{font-size:24px;font-weight:800;color:#36d8ff}.links a{color:#a9bfd0;text-decoration:none;margin-left:28px;font-size:14px}.links a:hover{color:#fff}
+.hero{padding:90px 7% 70px;max-width:1050px}.tag{color:#36d8ff;font-weight:700;letter-spacing:2px;font-size:13px}
+h1{font-size:64px;line-height:1.02;margin:18px 0}.hero p{font-size:19px;line-height:1.6;color:#9fb3c3;max-width:650px}
+.buttons{display:flex;gap:14px;margin-top:30px}.btn{padding:14px 22px;border-radius:8px;text-decoration:none;font-weight:700}.primary{background:#36d8ff;color:#031019}.secondary{border:1px solid #29465d;color:#fff}
+section{padding:55px 7%}.section-title{font-size:30px;margin-bottom:25px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#0b1b2a;border:1px solid #18344b;border-radius:12px;padding:24px}.card h3{margin-top:0}.card p{color:#9fb3c3;line-height:1.5}
+.statbar{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.stat{background:#0b1b2a;border:1px solid #18344b;border-radius:12px;padding:25px}.stat b{font-size:30px;color:#36d8ff;display:block;margin-bottom:6px}
+footer{padding:35px 7%;border-top:1px solid #173149;color:#7890a2;text-align:center}
+@media(max-width:750px){h1{font-size:44px}.grid,.statbar{grid-template-columns:1fr}.links{display:none}}
+</style>
+</head>
+<body>
+<nav><div class="logo">TechHub</div><div class="links">
+<a href="#builds">PC Builds</a><a href="#gaming">Gaming</a><a href="#news">News</a><a href="#tutorials">Tutorials</a><a href="#reviews">Reviews</a>
+</div></nav>
+<main>
+<section class="hero">
+<div class="tag">TECH • GAMING • GUIDES</div>
+<h1>Your Guide to Better Technology</h1>
+<p>Discover PC builds, gaming gear, technology news, tutorials and honest reviews — all in one place.</p>
+<div class="buttons"><a class="btn primary" href="#builds">Explore Builds</a><a class="btn secondary" href="#budget">Find Your Budget</a></div>
+</section>
+<section id="builds">
+<h2 class="section-title">Explore Tech</h2>
+<div class="grid">
+<div class="card"><h3>🖥️ PC Builds</h3><p>Build ideas for different budgets, from affordable gaming PCs to powerful setups.</p></div>
+<div class="card" id="gaming"><h3>🎮 Gaming</h3><p>Gaming gear, setup ideas and tips to improve your gaming experience.</p></div>
+<div class="card" id="news"><h3>📰 Tech News</h3><p>Easy-to-understand updates about the latest technology.</p></div>
+<div class="card" id="tutorials"><h3>🛠️ Tutorials</h3><p>Simple guides that help you learn and fix things yourself.</p></div>
+<div class="card" id="reviews"><h3>⭐ Reviews</h3><p>Clear reviews and comparisons to help you choose your next tech.</p></div>
+<div class="card" id="budget"><h3>💰 Budget Finder</h3><p>Find technology that fits your budget without making things complicated.</p></div>
+</div>
+</section>
+<section>
+<div class="statbar">
+<div class="stat"><b>50+</b>PC build ideas</div>
+<div class="stat"><b>100+</b>Tech guides</div>
+<div class="stat"><b>Weekly</b>New content</div>
+</div>
+</section>
+</main>
+<footer>© 2026 TechHub — Your Guide to Better Technology</footer>
+</body>
+</html>
